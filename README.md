@@ -1,4 +1,4 @@
-# 🤖 Project : `proj-todo` on the flet
+# 🤖 Project with `flet`
 
 - Start on May 19, 2025
 
@@ -17,7 +17,7 @@
 
 <br><br>
 
-## 🏆 현재 목표 달성
+## 🏆 Work Toward a Goal
 
 - [x] Github Organization 협업 구축하기
 - [x] Branch 구성하기
@@ -42,11 +42,11 @@
 
 <br><br>
 
-## 🛑 ⚙︎ setting version
+## 🛑 ⚙︎ Setting Environment
 
 #### python = 3.12
 
-#### flet = (애초에 통일 후 지정 설치 해야할 것 같습니다.)
+#### flet = (통일 후 지정 설치 필요)
 
 <br><br>
 
@@ -73,7 +73,25 @@
 
 <br><br>
 
-## 📝 기록
+## ➡️ How to 'Git Collaboration Works'
+
+- (locked main branch)
+- Create Issue
+  - Organization -> Repository -> Project -> `add item`
+- Create Issue Branch
+  - Organization -> Repository -> Project -> Select item -> Development -> Create a Baranch -> Setting and `Create branch`
+- Check Issue
+  - Organization -> Repository -> Issue
+- Coding for the Issue
+- And `Pull requests` to `'feat' branch`
+- All Team members `CodeReview` on the `Pull requests`
+- It can merge to `'dev' branch` after approved the 'feature code'
+- Repeat the above process
+- Done.
+
+<br><br>
+
+## 📝 History
 
 ### 🟡 일기장
 
@@ -81,6 +99,6 @@
 
 <br><br>
 
-## 🔗 참고 자료
+## 🔗 reference
 
 - [flet 공식 사이트](https://flet.dev/)
