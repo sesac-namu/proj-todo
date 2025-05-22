@@ -6,9 +6,15 @@
 
 ## 📜✏️ Project [To-do list]
 
+- 스터디명: 새싹에서나무까지
+- 조원: 손보람 / 오은택 / 서인영
+- Flutter Framework Flet를 이용한 앱 만들기
+- 1차: To do List 앱 만들기를 통해 Flet 학습하기 (25.05.19 ~ 05.25)
+- 2차: 가벼운 AI오픈소스를 활용한 간단한 앱 협업 제작하기 (25.05.27 ~ 08.26)
+
 <br><br>
 
-## 🏆 학습 목표
+## 🏆 현재 목표 달성
 
 - [x] Github Organization 협업 구축하기
 - [x] Branch 구성하기
@@ -26,10 +32,10 @@
 
 ## 📚 Branch Structure
 
-- [main](../../tree/main) - 메인 브랜치
-- [dev](../../tree/dev) - 최종 테스트 브랜치
-- [feat](../../tree/feat) - 기능 구현 브랜치
-- [fix](../../tree/fix) - 에러 수정 브랜치
+- [main](../tree/main) - 메인 브랜치
+- [dev](tree/dev) - 최종 테스트 브랜치
+- [feat](../tree/feat) - 기능 구현 브랜치
+- [fix](tree/fix) - 에러 수정 브랜치
 
 <br><br>
 
