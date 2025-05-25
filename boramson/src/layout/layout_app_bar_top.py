@@ -1,6 +1,5 @@
 # components/layout_app_bar_top.py
 import flet as ft
-from navigation.nav_drawer import nav_drawer
 
 
 # 이 파일의 main 함수는 페이지 전체를 구성합니다.
@@ -12,10 +11,6 @@ def layout_app_bar_top(page: ft.Page):  # 함수 이름을 변경하여 main.py�
     # Alignment
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
-
-    # =====================================================================
-    # Drawer Navigation [모듈화] 열기
-    open_drawer = nav_drawer(page)
 
     # =====================================================================
     # # ##### 테마 변경 기능 정의 #####
@@ -32,7 +27,6 @@ def layout_app_bar_top(page: ft.Page):  # 함수 이름을 변경하여 main.py�
         title=ft.Text("To-do List"),  # 이 AppBar의 제목
         leading=ft.IconButton(
             icon=ft.Icons.MENU,
-            on_click=open_drawer,
         ),
         bgcolor=ft.Colors.BLUE,
         actions=[
