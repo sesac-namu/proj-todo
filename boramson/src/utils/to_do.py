@@ -1,5 +1,5 @@
 import flet as ft
-from util.task import Task
+from utils.task import Task
 
 
 class TodoApp(ft.Column):
