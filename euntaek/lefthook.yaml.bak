@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    format:
+      run: bun run format
+    lint:
+      run: bun run lint

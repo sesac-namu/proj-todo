@@ -1,0 +1,11 @@
+{
+  "name": "frontend",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "uv run poe dev",
+    "dev:web": "uv run poe dev-web",
+    "format": "uv run poe format",
+    "lint": "uv run poe lint"
+  }
+}
